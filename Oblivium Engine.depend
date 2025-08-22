@@ -1,0 +1,595 @@
+# depslib dependency file v1.0
+1752456974 source:c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\src\engine.c
+	<../include/glad/glad.h>
+	<GLFW/glfw3.h>
+	<stdio.h>
+	"../include/engine.h"
+	"../include/window.h"
+	"../include/renderer.h"
+	"../include/input.h"
+
+1752456852 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\engine.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stdbool.h>
+
+1708700017 c:\users\gabriel\desktop\glfw\glfw-3.4.bin.win64\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<vulkan/vulkan.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<GL/glext.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<GL/glext.h>
+
+1752456852 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\window.h
+	<stdbool.h>
+	<GLFW/glfw3.h>
+
+1752455928 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\renderer.h
+	<stdbool.h>
+
+1752456852 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\input.h
+
+1752458297 source:c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<cglm/cglm.h>
+
+1752515717 source:c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\src\input.c
+	"../include/input.h"
+	<GLFW/glfw3.h>
+	"../include/window.h"
+
+1752456852 source:c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\src\window.c
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	"../include/window.h"
+
+1752456852 source:c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\src\renderer.c
+	"../include/engine.h"
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1708700017 c:\users\gabriel\desktop\glfw\glfw-3.4.bin.win64\include\glfw\glfw3native.h
+	<windows.h>
+	<ApplicationServices/ApplicationServices.h>
+	<objc/objc.h>
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	<wayland-client.h>
+	<GL/glx.h>
+	<EGL/egl.h>
+	<GL/osmesa.h>
+
+1752466976 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\glad\glad.h
+	<KHR/khrplatform.h>
+
+1752466976 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\khr\khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\cglm.h
+	"common.h"
+	"vec2.h"
+	"vec3.h"
+	"vec4.h"
+	"ivec2.h"
+	"ivec3.h"
+	"ivec4.h"
+	"mat4.h"
+	"mat4x2.h"
+	"mat4x3.h"
+	"mat3.h"
+	"mat3x2.h"
+	"mat3x4.h"
+	"mat2.h"
+	"mat2x3.h"
+	"mat2x4.h"
+	"affine.h"
+	"cam.h"
+	"frustum.h"
+	"quat.h"
+	"euler.h"
+	"plane.h"
+	"noise.h"
+	"aabb2d.h"
+	"box.h"
+	"color.h"
+	"util.h"
+	"io.h"
+	"project.h"
+	"sphere.h"
+	"ease.h"
+	"curve.h"
+	"bezier.h"
+	"ray.h"
+	"affine2d.h"
+	"affine2d-post.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\common.h
+	<stdint.h>
+	<stddef.h>
+	<stdlib.h>
+	<math.h>
+	<float.h>
+	<stdbool.h>
+	"types.h"
+	"simd/intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\types.h
+	<stdalign.h>
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\intrin.h
+	<immintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm_neon.h>
+	"x86.h"
+	"arm.h"
+	"wasm.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\x86.h
+	"intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\arm.h
+	"intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\wasm.h
+	"intrin.h"
+	<wasm_simd128.h>
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\vec2.h
+	"common.h"
+	"util.h"
+	"vec2-ext.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\util.h
+	"common.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\vec2-ext.h
+	"common.h"
+	"util.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\vec3.h
+	"common.h"
+	"vec4.h"
+	"vec3-ext.h"
+	"util.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\vec4.h
+	"common.h"
+	"vec4-ext.h"
+	"util.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\vec4-ext.h
+	"common.h"
+	"vec3-ext.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\vec3-ext.h
+	"common.h"
+	"util.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\ivec2.h
+	"common.h"
+	"util.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\ivec3.h
+	"common.h"
+	"util.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\ivec4.h
+	"common.h"
+	"util.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\mat4.h
+	"common.h"
+	"vec4.h"
+	"vec3.h"
+	"simd/sse2/mat4.h"
+	"simd/avx/mat4.h"
+	"simd/neon/mat4.h"
+	"simd/wasm/mat4.h"
+	<assert.h>
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\sse2\mat4.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\avx\mat4.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\neon\mat4.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\wasm\mat4.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\mat4x2.h
+	"common.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\mat4x3.h
+	"common.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\mat3.h
+	"common.h"
+	"vec3.h"
+	"simd/sse2/mat3.h"
+	"simd/wasm/mat3.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\sse2\mat3.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\wasm\mat3.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\mat3x2.h
+	"common.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\mat3x4.h
+	"common.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\mat2.h
+	"common.h"
+	"vec2.h"
+	"simd/sse2/mat2.h"
+	"simd/neon/mat2.h"
+	"simd/wasm/mat2.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\sse2\mat2.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\neon\mat2.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\wasm\mat2.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\mat2x3.h
+	"common.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\mat2x4.h
+	"common.h"
+	"vec4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\affine.h
+	"common.h"
+	"util.h"
+	"vec3.h"
+	"vec4.h"
+	"mat4.h"
+	"affine-mat.h"
+	"affine-pre.h"
+	"affine-post.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\affine-mat.h
+	"common.h"
+	"mat4.h"
+	"mat3.h"
+	"simd/sse2/affine.h"
+	"simd/avx/affine.h"
+	"simd/neon/affine.h"
+	"simd/wasm/affine.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\sse2\affine.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\avx\affine.h
+	"../../common.h"
+	"../intrin.h"
+	<immintrin.h>
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\neon\affine.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\wasm\affine.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\affine-pre.h
+	"common.h"
+	"util.h"
+	"vec3.h"
+	"vec4.h"
+	"mat4.h"
+	"affine-mat.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\affine-post.h
+	"common.h"
+	"util.h"
+	"vec3.h"
+	"vec4.h"
+	"mat4.h"
+	"affine-mat.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\cam.h
+	"common.h"
+	"plane.h"
+	"clipspace/persp.h"
+	"clipspace/ortho_lh_zo.h"
+	"clipspace/persp_lh_zo.h"
+	"clipspace/view_lh_zo.h"
+	"clipspace/ortho_lh_no.h"
+	"clipspace/persp_lh_no.h"
+	"clipspace/view_lh_no.h"
+	"clipspace/ortho_rh_zo.h"
+	"clipspace/persp_rh_zo.h"
+	"clipspace/view_rh_zo.h"
+	"clipspace/ortho_rh_no.h"
+	"clipspace/persp_rh_no.h"
+	"clipspace/view_rh_no.h"
+	"clipspace/ortho_lh_zo.h"
+	"clipspace/persp_lh_zo.h"
+	"clipspace/ortho_lh_no.h"
+	"clipspace/persp_lh_no.h"
+	"clipspace/ortho_rh_zo.h"
+	"clipspace/persp_rh_zo.h"
+	"clipspace/ortho_rh_no.h"
+	"clipspace/persp_rh_no.h"
+	"clipspace/view_lh_zo.h"
+	"clipspace/view_lh_no.h"
+	"clipspace/view_rh_zo.h"
+	"clipspace/view_rh_no.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\plane.h
+	"common.h"
+	"vec3.h"
+	"vec4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\persp.h
+	"../common.h"
+	"../plane.h"
+	"../mat4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\ortho_lh_zo.h
+	"../common.h"
+	"../plane.h"
+	"../mat4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\persp_lh_zo.h
+	"../common.h"
+	"persp.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\view_lh_zo.h
+	"../common.h"
+	"view_lh.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\view_lh.h
+	"../common.h"
+	"../plane.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\ortho_lh_no.h
+	"../common.h"
+	"../plane.h"
+	"../mat4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\persp_lh_no.h
+	"../common.h"
+	"persp.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\view_lh_no.h
+	"../common.h"
+	"view_lh.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\ortho_rh_zo.h
+	"../common.h"
+	"../plane.h"
+	"../mat4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\persp_rh_zo.h
+	"../common.h"
+	"persp.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\view_rh_zo.h
+	"../common.h"
+	"view_rh.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\view_rh.h
+	"../common.h"
+	"../plane.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\ortho_rh_no.h
+	"../common.h"
+	"../plane.h"
+	"../mat4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\persp_rh_no.h
+	"../common.h"
+	"persp.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\view_rh_no.h
+	"../common.h"
+	"view_rh.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\frustum.h
+	"common.h"
+	"plane.h"
+	"vec3.h"
+	"vec4.h"
+	"mat4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\quat.h
+	"common.h"
+	"vec3.h"
+	"vec4.h"
+	"mat4.h"
+	"mat3.h"
+	"affine-mat.h"
+	"affine.h"
+	"simd/sse2/quat.h"
+	"simd/neon/quat.h"
+	"simd/wasm/quat.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\sse2\quat.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\neon\quat.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\simd\wasm\quat.h
+	"../../common.h"
+	"../intrin.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\euler.h
+	"common.h"
+	"handed/euler_to_quat_lh.h"
+	"handed/euler_to_quat_rh.h"
+	"clipspace/ortho_lh_zo.h"
+	"clipspace/persp_lh_zo.h"
+	"clipspace/view_lh_zo.h"
+	"clipspace/ortho_lh_no.h"
+	"clipspace/persp_lh_no.h"
+	"clipspace/view_lh_no.h"
+	"clipspace/ortho_rh_zo.h"
+	"clipspace/persp_rh_zo.h"
+	"clipspace/view_rh_zo.h"
+	"clipspace/ortho_rh_no.h"
+	"clipspace/persp_rh_no.h"
+	"clipspace/view_rh_no.h"
+	"clipspace/ortho_lh_zo.h"
+	"clipspace/persp_lh_zo.h"
+	"clipspace/ortho_lh_no.h"
+	"clipspace/persp_lh_no.h"
+	"clipspace/ortho_rh_zo.h"
+	"clipspace/persp_rh_zo.h"
+	"clipspace/ortho_rh_no.h"
+	"clipspace/persp_rh_no.h"
+	"clipspace/view_lh_zo.h"
+	"clipspace/view_lh_no.h"
+	"clipspace/view_rh_zo.h"
+	"clipspace/view_rh_no.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\handed\euler_to_quat_lh.h
+	"../common.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\handed\euler_to_quat_rh.h
+	"../common.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\noise.h
+	"vec4.h"
+	"vec4-ext.h"
+	"vec3.h"
+	"vec3-ext.h"
+	"vec2.h"
+	"vec2-ext.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\aabb2d.h
+	"common.h"
+	"vec2.h"
+	"util.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\box.h
+	"common.h"
+	"vec3.h"
+	"vec4.h"
+	"util.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\color.h
+	"common.h"
+	"vec3.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\io.h
+	"common.h"
+	"util.h"
+	<stdio.h>
+	<stdlib.h>
+	"common.h"
+	<stdio.h>
+	<stdlib.h>
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\project.h
+	"common.h"
+	"vec3.h"
+	"vec4.h"
+	"mat4.h"
+	"clipspace/project_zo.h"
+	"clipspace/project_no.h"
+	"clipspace/project_zo.h"
+	"clipspace/project_no.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\project_zo.h
+	"../common.h"
+	"../vec3.h"
+	"../vec4.h"
+	"../mat4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\clipspace\project_no.h
+	"../common.h"
+	"../vec3.h"
+	"../vec4.h"
+	"../mat4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\sphere.h
+	"common.h"
+	"mat4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\ease.h
+	"common.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\curve.h
+	"common.h"
+	"vec4.h"
+	"mat4.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\bezier.h
+	"common.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\ray.h
+	"vec3.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\affine2d.h
+	"common.h"
+	"util.h"
+	"vec2.h"
+	"mat3.h"
+
+1750257896 c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\include\cglm\affine2d-post.h
+	"vec2.h"
+
+1752466976 source:c:\users\gabriel\desktop\projetos em c\engine3d\oblivium engine\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+

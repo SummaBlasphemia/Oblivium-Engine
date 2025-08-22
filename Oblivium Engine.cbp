@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Oblivium Engine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Oblivium Engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/Gabriel/Desktop/GLFW/glfw-3.4.bin.WIN64/include/GLFW" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Oblivium Engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../../../GLFW/glfw-3.4.bin.WIN64/include" />
+			<Add directory="C:/Users/Gabriel/Desktop/Projetos em C/Engine3D/Oblivium Engine/include" />
+			<Add directory="C:/Users/Gabriel/Desktop/Projetos em C/Engine3D/Oblivium Engine/include/cglm" />
+		</Compiler>
+		<Linker>
+			<Add option="-mwindows" />
+			<Add library="glfw3" />
+			<Add library="opengl32" />
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="shell32" />
+			<Add library="mingw32" />
+			<Add library="kernel32" />
+			<Add directory="../../../GLFW/glfw-3.4.bin.WIN64/lib-mingw-w64" />
+		</Linker>
+		<Unit filename="include/KHR/khrplatform.h" />
+		<Unit filename="include/cglm/aabb2d.h" />
+		<Unit filename="include/cglm/affine-mat.h" />
+		<Unit filename="include/cglm/affine-post.h" />
+		<Unit filename="include/cglm/affine-pre.h" />
+		<Unit filename="include/cglm/affine.h" />
+		<Unit filename="include/cglm/affine2d-post.h" />
+		<Unit filename="include/cglm/affine2d.h" />
+		<Unit filename="include/cglm/applesimd.h" />
+		<Unit filename="include/cglm/bezier.h" />
+		<Unit filename="include/cglm/box.h" />
+		<Unit filename="include/cglm/call.h" />
+		<Unit filename="include/cglm/call/aabb2d.h" />
+		<Unit filename="include/cglm/call/affine.h" />
+		<Unit filename="include/cglm/call/affine2d.h" />
+		<Unit filename="include/cglm/call/bezier.h" />
+		<Unit filename="include/cglm/call/box.h" />
+		<Unit filename="include/cglm/call/cam.h" />
+		<Unit filename="include/cglm/call/clipspace/ortho_lh_no.h" />
+		<Unit filename="include/cglm/call/clipspace/ortho_lh_zo.h" />
+		<Unit filename="include/cglm/call/clipspace/ortho_rh_no.h" />
+		<Unit filename="include/cglm/call/clipspace/ortho_rh_zo.h" />
+		<Unit filename="include/cglm/call/clipspace/persp_lh_no.h" />
+		<Unit filename="include/cglm/call/clipspace/persp_lh_zo.h" />
+		<Unit filename="include/cglm/call/clipspace/persp_rh_no.h" />
+		<Unit filename="include/cglm/call/clipspace/persp_rh_zo.h" />
+		<Unit filename="include/cglm/call/clipspace/project_no.h" />
+		<Unit filename="include/cglm/call/clipspace/project_zo.h" />
+		<Unit filename="include/cglm/call/clipspace/view_lh_no.h" />
+		<Unit filename="include/cglm/call/clipspace/view_lh_zo.h" />
+		<Unit filename="include/cglm/call/clipspace/view_rh_no.h" />
+		<Unit filename="include/cglm/call/clipspace/view_rh_zo.h" />
+		<Unit filename="include/cglm/call/curve.h" />
+		<Unit filename="include/cglm/call/ease.h" />
+		<Unit filename="include/cglm/call/euler.h" />
+		<Unit filename="include/cglm/call/frustum.h" />
+		<Unit filename="include/cglm/call/io.h" />
+		<Unit filename="include/cglm/call/ivec2.h" />
+		<Unit filename="include/cglm/call/ivec3.h" />
+		<Unit filename="include/cglm/call/ivec4.h" />
+		<Unit filename="include/cglm/call/mat2.h" />
+		<Unit filename="include/cglm/call/mat2x3.h" />
+		<Unit filename="include/cglm/call/mat2x4.h" />
+		<Unit filename="include/cglm/call/mat3.h" />
+		<Unit filename="include/cglm/call/mat3x2.h" />
+		<Unit filename="include/cglm/call/mat3x4.h" />
+		<Unit filename="include/cglm/call/mat4.h" />
+		<Unit filename="include/cglm/call/mat4x2.h" />
+		<Unit filename="include/cglm/call/mat4x3.h" />
+		<Unit filename="include/cglm/call/noise.h" />
+		<Unit filename="include/cglm/call/plane.h" />
+		<Unit filename="include/cglm/call/project.h" />
+		<Unit filename="include/cglm/call/quat.h" />
+		<Unit filename="include/cglm/call/ray.h" />
+		<Unit filename="include/cglm/call/sphere.h" />
+		<Unit filename="include/cglm/call/vec2.h" />
+		<Unit filename="include/cglm/call/vec3.h" />
+		<Unit filename="include/cglm/call/vec4.h" />
+		<Unit filename="include/cglm/cam.h" />
+		<Unit filename="include/cglm/cglm.h" />
+		<Unit filename="include/cglm/clipspace/ortho_lh_no.h" />
+		<Unit filename="include/cglm/clipspace/ortho_lh_zo.h" />
+		<Unit filename="include/cglm/clipspace/ortho_rh_no.h" />
+		<Unit filename="include/cglm/clipspace/ortho_rh_zo.h" />
+		<Unit filename="include/cglm/clipspace/persp.h" />
+		<Unit filename="include/cglm/clipspace/persp_lh_no.h" />
+		<Unit filename="include/cglm/clipspace/persp_lh_zo.h" />
+		<Unit filename="include/cglm/clipspace/persp_rh_no.h" />
+		<Unit filename="include/cglm/clipspace/persp_rh_zo.h" />
+		<Unit filename="include/cglm/clipspace/project_no.h" />
+		<Unit filename="include/cglm/clipspace/project_zo.h" />
+		<Unit filename="include/cglm/clipspace/view_lh.h" />
+		<Unit filename="include/cglm/clipspace/view_lh_no.h" />
+		<Unit filename="include/cglm/clipspace/view_lh_zo.h" />
+		<Unit filename="include/cglm/clipspace/view_rh.h" />
+		<Unit filename="include/cglm/clipspace/view_rh_no.h" />
+		<Unit filename="include/cglm/clipspace/view_rh_zo.h" />
+		<Unit filename="include/cglm/color.h" />
+		<Unit filename="include/cglm/common.h" />
+		<Unit filename="include/cglm/curve.h" />
+		<Unit filename="include/cglm/ease.h" />
+		<Unit filename="include/cglm/euler.h" />
+		<Unit filename="include/cglm/frustum.h" />
+		<Unit filename="include/cglm/handed/euler_to_quat_lh.h" />
+		<Unit filename="include/cglm/handed/euler_to_quat_rh.h" />
+		<Unit filename="include/cglm/io.h" />
+		<Unit filename="include/cglm/ivec2.h" />
+		<Unit filename="include/cglm/ivec3.h" />
+		<Unit filename="include/cglm/ivec4.h" />
+		<Unit filename="include/cglm/mat2.h" />
+		<Unit filename="include/cglm/mat2x3.h" />
+		<Unit filename="include/cglm/mat2x4.h" />
+		<Unit filename="include/cglm/mat3.h" />
+		<Unit filename="include/cglm/mat3x2.h" />
+		<Unit filename="include/cglm/mat3x4.h" />
+		<Unit filename="include/cglm/mat4.h" />
+		<Unit filename="include/cglm/mat4x2.h" />
+		<Unit filename="include/cglm/mat4x3.h" />
+		<Unit filename="include/cglm/noise.h" />
+		<Unit filename="include/cglm/plane.h" />
+		<Unit filename="include/cglm/project.h" />
+		<Unit filename="include/cglm/quat.h" />
+		<Unit filename="include/cglm/ray.h" />
+		<Unit filename="include/cglm/simd/arm.h" />
+		<Unit filename="include/cglm/simd/avx/affine.h" />
+		<Unit filename="include/cglm/simd/avx/mat4.h" />
+		<Unit filename="include/cglm/simd/intrin.h" />
+		<Unit filename="include/cglm/simd/neon/affine.h" />
+		<Unit filename="include/cglm/simd/neon/mat2.h" />
+		<Unit filename="include/cglm/simd/neon/mat4.h" />
+		<Unit filename="include/cglm/simd/neon/quat.h" />
+		<Unit filename="include/cglm/simd/sse2/affine.h" />
+		<Unit filename="include/cglm/simd/sse2/mat2.h" />
+		<Unit filename="include/cglm/simd/sse2/mat3.h" />
+		<Unit filename="include/cglm/simd/sse2/mat4.h" />
+		<Unit filename="include/cglm/simd/sse2/quat.h" />
+		<Unit filename="include/cglm/simd/wasm.h" />
+		<Unit filename="include/cglm/simd/wasm/affine.h" />
+		<Unit filename="include/cglm/simd/wasm/mat2.h" />
+		<Unit filename="include/cglm/simd/wasm/mat3.h" />
+		<Unit filename="include/cglm/simd/wasm/mat4.h" />
+		<Unit filename="include/cglm/simd/wasm/quat.h" />
+		<Unit filename="include/cglm/simd/x86.h" />
+		<Unit filename="include/cglm/sphere.h" />
+		<Unit filename="include/cglm/struct.h" />
+		<Unit filename="include/cglm/struct/aabb2d.h" />
+		<Unit filename="include/cglm/struct/affine-mat.h" />
+		<Unit filename="include/cglm/struct/affine-post.h" />
+		<Unit filename="include/cglm/struct/affine-pre.h" />
+		<Unit filename="include/cglm/struct/affine.h" />
+		<Unit filename="include/cglm/struct/affine2d.h" />
+		<Unit filename="include/cglm/struct/box.h" />
+		<Unit filename="include/cglm/struct/cam.h" />
+		<Unit filename="include/cglm/struct/clipspace/ortho_lh_no.h" />
+		<Unit filename="include/cglm/struct/clipspace/ortho_lh_zo.h" />
+		<Unit filename="include/cglm/struct/clipspace/ortho_rh_no.h" />
+		<Unit filename="include/cglm/struct/clipspace/ortho_rh_zo.h" />
+		<Unit filename="include/cglm/struct/clipspace/persp_lh_no.h" />
+		<Unit filename="include/cglm/struct/clipspace/persp_lh_zo.h" />
+		<Unit filename="include/cglm/struct/clipspace/persp_rh_no.h" />
+		<Unit filename="include/cglm/struct/clipspace/persp_rh_zo.h" />
+		<Unit filename="include/cglm/struct/clipspace/project_no.h" />
+		<Unit filename="include/cglm/struct/clipspace/project_zo.h" />
+		<Unit filename="include/cglm/struct/clipspace/view_lh_no.h" />
+		<Unit filename="include/cglm/struct/clipspace/view_lh_zo.h" />
+		<Unit filename="include/cglm/struct/clipspace/view_rh_no.h" />
+		<Unit filename="include/cglm/struct/clipspace/view_rh_zo.h" />
+		<Unit filename="include/cglm/struct/color.h" />
+		<Unit filename="include/cglm/struct/curve.h" />
+		<Unit filename="include/cglm/struct/euler.h" />
+		<Unit filename="include/cglm/struct/frustum.h" />
+		<Unit filename="include/cglm/struct/handed/euler_to_quat_lh.h" />
+		<Unit filename="include/cglm/struct/handed/euler_to_quat_rh.h" />
+		<Unit filename="include/cglm/struct/io.h" />
+		<Unit filename="include/cglm/struct/ivec2.h" />
+		<Unit filename="include/cglm/struct/ivec3.h" />
+		<Unit filename="include/cglm/struct/ivec4.h" />
+		<Unit filename="include/cglm/struct/mat2.h" />
+		<Unit filename="include/cglm/struct/mat2x3.h" />
+		<Unit filename="include/cglm/struct/mat2x4.h" />
+		<Unit filename="include/cglm/struct/mat3.h" />
+		<Unit filename="include/cglm/struct/mat3x2.h" />
+		<Unit filename="include/cglm/struct/mat3x4.h" />
+		<Unit filename="include/cglm/struct/mat4.h" />
+		<Unit filename="include/cglm/struct/mat4x2.h" />
+		<Unit filename="include/cglm/struct/mat4x3.h" />
+		<Unit filename="include/cglm/struct/noise.h" />
+		<Unit filename="include/cglm/struct/plane.h" />
+		<Unit filename="include/cglm/struct/project.h" />
+		<Unit filename="include/cglm/struct/quat.h" />
+		<Unit filename="include/cglm/struct/ray.h" />
+		<Unit filename="include/cglm/struct/sphere.h" />
+		<Unit filename="include/cglm/struct/vec2-ext.h" />
+		<Unit filename="include/cglm/struct/vec2.h" />
+		<Unit filename="include/cglm/struct/vec3-ext.h" />
+		<Unit filename="include/cglm/struct/vec3.h" />
+		<Unit filename="include/cglm/struct/vec4-ext.h" />
+		<Unit filename="include/cglm/struct/vec4.h" />
+		<Unit filename="include/cglm/types-struct.h" />
+		<Unit filename="include/cglm/types.h" />
+		<Unit filename="include/cglm/util.h" />
+		<Unit filename="include/cglm/vec2-ext.h" />
+		<Unit filename="include/cglm/vec2.h" />
+		<Unit filename="include/cglm/vec3-ext.h" />
+		<Unit filename="include/cglm/vec3.h" />
+		<Unit filename="include/cglm/vec4-ext.h" />
+		<Unit filename="include/cglm/vec4.h" />
+		<Unit filename="include/cglm/version.h" />
+		<Unit filename="include/engine.h" />
+		<Unit filename="include/glad/glad.h" />
+		<Unit filename="include/input.h" />
+		<Unit filename="include/renderer.h" />
+		<Unit filename="include/window.h" />
+		<Unit filename="shaders/basic.frag" />
+		<Unit filename="shaders/basic.vert" />
+		<Unit filename="src/engine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/renderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
