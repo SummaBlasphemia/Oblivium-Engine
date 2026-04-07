@@ -1,12 +1,12 @@
 #include <../include/glad/glad.h>
-#include <GLFW/glfw3.h>         // GLFW continua para janela e input
+#include <GLFW/glfw3.h>
 #include <stdio.h>
 #include "../include/engine.h"
 #include "../include/window.h"
 #include "../include/renderer.h"
 #include "../include/input.h"
 
-// Inicializa a engine: cria janela e inicializa o renderer
+// Inicializa a engine (cria janela e inicializa o renderer)
 bool engine_init(void) {
     if (!window_init(800, 600, "Minha Engine 3D")) return false;
 
@@ -42,7 +42,7 @@ bool engine_should_run(void) {
     return !window_should_close();
 }
 
-// Encerra e limpa tudo
+// Encerra
 void engine_shutdown(void) {
     renderer_shutdown();
     window_shutdown();
