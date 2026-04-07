@@ -15,7 +15,7 @@ bool window_init(int width, int height, const char* title) {
         return false;
     }
 
-    glfwMakeContextCurrent(window);  // Necessário para usar OpenGL (e carregar com GLAD)
+    glfwMakeContextCurrent(window); 
 
     return true;
 }
@@ -34,7 +34,6 @@ void window_shutdown() {
     glfwTerminate();
 }
 
-// ⚠️ Permite que outros arquivos acessem o ponteiro da janela
 GLFWwindow* window_get(void) {
     return window;
 }
