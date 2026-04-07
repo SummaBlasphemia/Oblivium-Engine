@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>       // Para strcmp
+#include <string.h>       
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include <cglm/cglm.h>    // Matriz e vetor
-
+#include <cglm/cglm.h>    
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
     glViewport(0, 0, width, height);
 }
