@@ -55,10 +55,10 @@ int main() {
     }
     glViewport(0, 0, 800, 600);
 
-    // Vertices da pir‚mide: posiÁ„o (x,y,z) + normal (nx, ny, nz)
+    // Vertices da pir√¢mide: posi√ß√£o (x,y,z) + normal (nx, ny, nz)
     // Normais calculadas manualmente para cada face
     float vertices[] = {
-        // Base (2 tri‚ngulos) - Normais para baixo (0,-1,0)
+        // Base (2 tri√¢ngulos) - Normais para baixo (0,-1,0)
         -0.5f, 0.0f, -0.5f,    0.0f, -1.0f, 0.0f,
          0.5f, 0.0f, -0.5f,    0.0f, -1.0f, 0.0f,
          0.5f, 0.0f,  0.5f,    0.0f, -1.0f, 0.0f,
@@ -87,8 +87,6 @@ int main() {
         -0.5f, 0.0f,  0.5f,   -0.707f, 0.707f, 0.0f,
          0.0f, 0.8f,  0.0f,   -0.707f, 0.707f, 0.0f,
     };
-
-    // Shaders iguais ao seu cÛdigo anterior (vertex e fragment), sÛ a matrix view ser· animada para giro da c‚mera
 
     const char* vertexShaderSource = "#version 330 core\n"
         "layout (location = 0) in vec3 aPos;\n"
@@ -120,7 +118,7 @@ int main() {
         "   FragColor = vec4(result, 1.0);\n"
         "}\0";
 
-    // CompilaÁ„o dos shaders
+    // Compila√ß√£o dos shaders
     unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
     glCompileShader(vertexShader);
@@ -150,7 +148,7 @@ int main() {
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
-    // posiÁ„o (location 0)
+    // posi√ß√£o (location 0)
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
     // normal (location 1)
@@ -185,12 +183,12 @@ int main() {
         glClearColor(0.1f,0.1f,0.1f,1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        // Calcula posiÁ„o da c‚mera girando ao redor da pir‚mide
+        // Calcula posi√ß√£o da c√¢mera girando ao redor da pir√¢mide
         float radius = 3.0f;
         float camX = sinf(angle) * radius;
         float camZ = cosf(angle) * radius;
 
-        vec3 camPos = { camX, 1.5f, camZ };  // C‚mera um pouco acima para melhor vis„o
+        vec3 camPos = { camX, 1.5f, camZ };  // C√¢mera um pouco acima para melhor vis√£o
         vec3 target = { 0.0f, 0.3f, 0.0f };  // Olhando levemente acima da base
         vec3 up = { 0.0f, 1.0f, 0.0f };
 
